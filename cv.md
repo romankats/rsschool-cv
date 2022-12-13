@@ -11,7 +11,7 @@
 ### MILITARY SERVICE STATUS
 **Not liable**
 ### LOCATIONS
-Mestia
+**Mestia**
 romaaario@gmail.com
 https://github.com/romankats
 https://www.linkedin.com/in/roman-katz/
