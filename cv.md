@@ -10,15 +10,17 @@
 **2023-01-01**
 ### MILITARY SERVICE STATUS
 **Not liable**
+
 ### LOCATIONS
-**Mestia**
-romaaario@gmail.com
-https://github.com/romankats
-https://www.linkedin.com/in/roman-katz/
-+995555401977
-@romankats
-https://kats.ro
+**Mestia**\
+**romaaario@gmail.com**\
+https://github.com/romankats\
+https://www.linkedin.com/in/roman-katz/\
++995555401977\
+@romankats\
+https://kats.ro\
 About
+
 I am an enthusiastic Web Specialist with many years of experience in the industry working for large organizations, as well as being a freelancer. My main knowledge and skills are outlined below:
 • Experience in administering enterprise networks
 • Creation and administration of sites
