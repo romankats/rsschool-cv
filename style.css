@@ -28,11 +28,60 @@ body {
     box-shadow: 1px 1px 2px #DAD7D7;
     border-radius: 3px;
     padding: 40px;
+    margin-top: 10px;
+}
+
+.header_container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;
+    padding: 40px;
     margin-top: 50px;
 }
 
-.header {
-    margin-bottom: 30px;
+.round {
+    border-radius: 100px;
+    /* Радиус скругления */
+    /*border: 3px solid green;
+     Параметры рамки */
+    /*box-shadow: 0 0 7px rgb(185, 57, 57);
+     Параметры тени */
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    background: #fff;
+    margin: 0px auto 0px;
+    box-shadow: 1px 1px 2px #DAD7D7;
+    border-radius: 3px;
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+}
+
+.menu {
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    border: 1px solid #000;
+    /* Рамка вокруг текста */
+    padding: 3px;
+    /* Поля вокруг текста */
+}
+
+.about {
+    margin-bottom: 40px;
 }
 
 .full-name {
@@ -161,3 +210,14 @@ a:hover {
             background: #79A9CE;
         }
     } */
+.footer__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__year {
+    font-weight: 900;
+    font-size: 30px;
+}

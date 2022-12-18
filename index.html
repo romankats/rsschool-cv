@@ -10,38 +10,71 @@
 </head>
 
 <body>
+    <header class="header_container">
+        <a class="footer__github" href="https://github.com/romankats/" target="_blank">
+            <img src="img/im.jpg" width="120" height="120" alt="This is my photo" class="round">
+        </a>
+        <h1 class="full-name">
+            <span class="first-name">Roman</span>
+            <span class="last-name">K</span>
+        </h1>
+        <div class="contact-info">
+            <ul class="contact__list">
+                <li class="email">
+                    Email:
+                    <a href="mailto:i@kats.ro">i@kats.ro</a>
+                </li>
+                <li class="phone">
+                    Phone:
+                    <a href="tel:+995555401977">+995 555 40 19 77</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <nav class="navigation">
+        <ul class="contact__list">
+            <li class="menu">
+                <a href="#ablink">About</a>
+            </li>
+            <li class="menu">
+                <a href="#exlink">Experience</a>
+            </li>
 
+            <li class="menu">
+                <a href="#edlink">Education</a>
+            </li>
 
-    <div class="container">
-        <div class="header">
-            <h1 class="full-name">
-                <span class="first-name">Roman</span>
-                <span class="last-name">K</span>
-            </h1>
-            <nav class="contact-info">
-                <ul class="contact__list">
-                    <li class="email">
-                        Email:
-                        <a href="mailto:i@kats.ro">i@kats.ro</a>
-                    </li>
-                    <li class="phone">
-                        Phone:
-                        <a href="tel:+995555401977">+995 555 40 19 77</a>
-                    </li>
-                </ul>
-            </nav>
+            <li class="menu">
+                <a href="#prolink">Projects</a>
+            </li>
+            <li class="menu">
+                <a href="#skilink">Skills</a>
+            </li>
+            <li class="menu">
+                <a href="#colink">Code</a>
+            </li>
+            <li class="menu">
+                <a href="#intlink">Interests</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main">
+
+        <div class="container">
+            <!-- <div class="header"> -->
+
 
             <div class="about">
+                <h2 class="section__title" id="ablink">About</h2>
                 <span class="position">Front-End Developer </span>
                 <span class="desc">
                     I am a front-end developer with more than 3 years of experience writing html, css, and js. I'm
                     motivated, result-focused and seeking a successful team-oriented company with opportunity to grow.
                 </span>
             </div>
-        </div>
-        <div class="details">
-            <div class="section">
-                <div class="section__title">Experience</div>
+            <!-- </div> -->
+            <div class="details">
+                <h2 class="section__title" id="exlink">Experience</h2>
                 <div class="section__list">
                     <div class="section__list-item">
                         <div class="left">
@@ -60,13 +93,14 @@
                     </div>
                 </div>
                 <div class="section">
-                    <div class="section__title">Education</div>
+                    <h2 class="section__title" id="edlink">Education</h2>
                     <div class="section__list">
                         <div class="section__list-item">
                             <div class="left">
                                 <div class="name">RGTA</div>
                                 <div class="addr">Rybinsk, Ru</div>
                                 <div class="duration">Sep 1999 - Jun 2004</div>
+                                <div class="addr">English: A1</div>
                             </div>
                             <div class="right">
                                 <div class="name"></div>
@@ -81,30 +115,53 @@
 
                 </div>
                 <div class="section">
-                    <div class="section__title">Projects</div>
+                    <h2 class="section__title" id="prolink">Projects</h2>
                     <div class="section__list">
                         <div class="section__list-item">
-                            <div class="name">DSP</div>
-                            <div class="text">I am a front-end developer with more than 3 years of experience writing
+                            <div class="name">Raspisanie.Info</div>
+                            <div class="text">I am a front-end developer with more than 3 years of experience
+                                writing
                                 html,
                                 css, and js. I'm motivated, result-focused and seeking a successful team-oriented
                                 company
-                                with opportunity to grow.</div>
+                                with opportunity to grow.<a href="https://Raspisanie.Info/">link</a></div>
                         </div>
 
                         <div class="section__list-item">
-                            <div class="name">DSP</div>
-                            <div class="text">I am a front-end developer with more than 3 years of experience writing
+                            <div class="name">Navikup.Top</div>
+                            <div class="text">I am a front-end developer with more than 3 years of experience
+                                writing
                                 html,
                                 css, and js. I'm motivated, result-focused and seeking a successful team-oriented
                                 company
-                                with opportunity to grow. <a href="/login">link</a>
+                                with opportunity to grow. <a href="https://Navikup.Top/">link</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="section">
-                    <div class="section__title">Skills</div>
+                    <h2 class="section__title" id="colink">Code</h2>
+                    <div class="section__list">
+                        <div class="section__list-item">
+                            <div class="text">
+                                <pre>
+                    &lt;nav class="navigation"&gt;
+                    &lt;ul class="contact__list"&gt;
+                    &lt;li class="menu"&gt;
+                    &lt;a href="#ablink"&gt;About&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li class="menu"&gt;
+                    &lt;a href="#exlink"&gt;Experience&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;/ul&gt;
+                    &lt;/nav&gt;
+                        </pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section__title" id="skilink">Skills</h2>
                     <div class="skills">
                         <div class="skills__item">
                             <div class="left">
@@ -155,19 +212,35 @@
                     </div>
 
                 </div>
+
+
+
                 <div class="section">
-                    <div class="section__title">
+                    <h2 class="section__title" id="intlink">
                         Interests
-                    </div>
+                    </h2>
                     <div class="section__list">
                         <div class="section__list-item">
-                            Football, programming.
+                            Snowboarding, skateboarding, programming.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__wrapper">
+            <a class="footer__github" href="https://github.com/romankats/" target="_blank">
+                <img src="img/iconmonstr-github-1.svg" width="32" height="32" alt="RS School">
+            </a>
+            <p class="footer__year">2022</p>
+            <a class="footer__rsschool" href="https://rs.school/js/" target="_blank">
+                <img src="img/rs_school_js.svg" width="86" height="32" alt="RS School">
+            </a>
+        </div>
+    </footer>
 </body>
+
+
 
 </html>
